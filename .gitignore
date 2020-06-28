@@ -1,20 +1,42 @@
-/dist
+> # 众多无视的扩展
+*.bak  
+*.patch  
+*.diff  
+*.err  
 
-# local env files
-.env.local
-.env.*.local
+# git冲突合并的临时文件
+*.orig  
+*.log  
+*.rej  
+*.swo  
+*.swp  
+*.zip  
+*.vi  
+*~  
+*.sass-cache  
+*.tmp.html  
+*.dump  
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+#操作系统或编辑器文件夹
+.DS_Store  
+._*  
+.cache  
+.project  
+.settings  
+.tmproj  
+*.esproj  
+*.sublime-project  
+*.sublime-workspace  
+nbproject  
+thumbs.db  
+*.iml  
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# F忽略的文件夹
+.hg  
+.svn  
+.CVS  
+.idea  
+node_modules/  
+jscoverage_lib/  
+bower_components/  
+dist/
